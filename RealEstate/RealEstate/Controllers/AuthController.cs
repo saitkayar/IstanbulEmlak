@@ -74,11 +74,11 @@ namespace RealEstate.Controllers
 
                     if (user.Rolee.RoleName == "Supervisor")
                     {
-                        return Redirect("~/HomeAdmin/Index");
+                        return Redirect("~/Home/Index");
                     }
                     else if (user.Rolee.RoleName == "Admin")
                     {
-                        return Redirect("~/Admin/Index");
+                        return Redirect("~/Home/Index");
                     }
 
                     else if (user.Rolee.RoleName == "AktifKullanıcı")
