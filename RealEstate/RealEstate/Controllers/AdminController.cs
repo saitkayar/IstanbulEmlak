@@ -78,5 +78,13 @@ namespace RealEstate.Controllers
             }
             return RedirectToAction("Index");
         }
+        public IActionResult Delete(House house,int id)
+        {
+            var delete=_context.Set<House>().SingleOrDefault(a=>a.Id==id);
+            _context.Remove(delete);
+            _context.SaveChanges();
+
+            return RedirectToAction("Index");
+        }
     }
 }
