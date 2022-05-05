@@ -1,0 +1,52 @@
+﻿@model HouseViewModel
+
+@{
+    ViewData["Title"] = "Admin Update Page";
+    Layout = "_Layout";
+}
+<form post="method" asp-controller="Admin" asp-action="Update">
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Başlık</label>
+    <input type="text" class="form-control"  name="Title" value="@ViewBag.hw.Title">
+
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Alan</label>
+    <input type="number" class="form-control" name="Square" id="exampleInputPassword1" value="@ViewBag.hw.Square">
+  </div>
+   <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Oda Sayısı</label>
+    <input type="number" class="form-control" name="RoomNumber" id="exampleInputPassword1"value="@ViewBag.hw.RoomNumber" >
+  </div>
+   <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Fiyat</label> 
+    <input type="number" class="form-control" name="Price" id="exampleInputPassword1" value="@ViewBag.hw.Price">
+  </div>
+@*   <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Komum</label >
+  
+    
+          <select name="LocationId" class="form-control" >
+                 <option value="" disabled selected>İlçe Seçiniz</option>
+            @foreach (District location in @ViewBag.districts)
+            {  
+                <option value="@location.Id">@location.LocationName</option>
+              
+            }
+        </select>
+    
+
+  </div>*@
+@*   <div class="mb-3">
+       <select name="StatusId" class="form-control" >
+                 <option value="" disabled selected>Durum</option>
+            @foreach (Status st in @ViewBag.statu)
+            {  
+                <option value="@st.Id">@st.Statu</option>
+              
+            }
+        </select>
+  </div>*@
+  <input type="text" name="Id" value="@ViewBag.hw.Id" />
+  <button type="submit" class="btn btn-primary">Güncelle</button>
+</form>

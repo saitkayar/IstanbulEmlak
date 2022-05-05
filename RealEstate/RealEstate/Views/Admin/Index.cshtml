@@ -1,0 +1,43 @@
+﻿@{
+    ViewData["Title"] = "Admin Home Page";
+    Layout = "_Layout";
+}
+
+
+<table class="table">
+    <thead>
+        <tr>
+
+            <th scope="col">#</th>
+            <th scope="col">Title</th>
+            <th scope="col">Alan</th>
+            <th scope="col">Oda Sayısı</th>
+            <th scope="col">Fiyat</th>
+            <th scope="col">Konum</th>
+            <th scope="col">Durum</th>
+            <th scope="col">Ek eylemler</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in @ViewBag.ev)
+        {
+            <tr>
+
+                <th scope="row">@item.Id</th>
+                <td>@item.Title</td>
+                <td>@item.Square</td>
+                <td>@item.RoomNumber</td>
+                <td>@item.Price</td>
+                <td>@item.LocationName</td>
+                <td>@item.Statu</td>
+                <td><a class="btn btn-link" href="/Admin/Update/@item.Id">Edit</a>
+                        <a class="btn btn-link" href="/Admin/DeleteById/@item.Id">Delete</a>
+                        </td>
+               
+
+            </tr>
+        }
+    </tbody>
+</table>
+<a class="btn btn-success" asp-controller="Admin" asp-action="Add">Yeni Ev Ekle</a>
