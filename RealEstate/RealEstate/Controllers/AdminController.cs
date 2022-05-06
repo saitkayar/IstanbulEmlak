@@ -88,8 +88,20 @@ namespace RealEstate.Controllers
         [HttpPost]
         public IActionResult Update(House house)
         {
-            if (house.Id != 0)
+            if ( ModelState.IsValid &&house.Id != 0)
             {
+                var filePath = Path.Combine(_webHostEnviroment.WebRootPath, "Resimler");
+                if (!Directory.Exists(filePath))
+                {
+                    Directory.CreateDirectory(filePath);
+
+                }
+                var path = Path.Combine(filePath, house.File.FileName);
+                using (var fileStream = new FileStream(path, FileMode.Create))
+                {
+                    house.File.CopyTo(fileStream);
+                }
+                house.Image = house.File.FileName;
                 _context.Houses.Update(house);
                 _context.SaveChanges();
             }

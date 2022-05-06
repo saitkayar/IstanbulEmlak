@@ -3,37 +3,10 @@
     Layout = "NewFolder/_Layoutt";
 }
 
-@*<div class="text-center">
- <a asp-controller="Auth" asp-action="Login">Admin</a>
-</div>
-*@
 
 
-@*<table class="table">
-    <thead>
-        <tr>
-
-            <th scope="col">#</th>
-            <th scope="col">İlçeler</th>
-
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var item in Model)
-        {
-            <tr>
-
-                <th scope="row">@item.Id</th>
-                <td>@item.LocationName</td>
-
-            </tr>
-        }
-    </tbody>
-</table>*@
-
-   
         <div id="portfolio-grid" class="row no-gutter" data-aos="fade-up" data-aos-delay="200">
-            @foreach (HouseViewModel item in @ViewBag.hw)
+            @foreach (HouseViewModel item in @ViewBag.ev)
             {
                   <div class="item web col-sm-6 col-md-4 col-lg-4 mb-4">
             <a href="/Home/Detail" class="item-wrap fancybox">

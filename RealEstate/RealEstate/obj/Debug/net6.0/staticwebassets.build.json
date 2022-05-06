@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rJZs77noOwq2DmVOQZNRmS4fWJmzoZyguHcIEcf7OJ4=",
+  "Hash": "rI0Ly9ZrxiE7UFm8An9HRs9QxBMWrp6WlalYq12PSWA=",
   "Source": "RealEstate",
   "BasePath": "_content/RealEstate",
   "Mode": "Default",
@@ -8753,6 +8753,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\MyPortfolio\\work-single.html"
+    },
+    {
+      "Identity": "C:\\Users\\303SAIT_AKSAM\\Desktop\\IstanbulEmlak\\RealEstate\\RealEstate\\wwwroot\\Resimler\\d.jpg.webp",
+      "SourceId": "RealEstate",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\303SAIT_AKSAM\\Desktop\\IstanbulEmlak\\RealEstate\\RealEstate\\wwwroot\\",
+      "BasePath": "_content/RealEstate",
+      "RelativePath": "Resimler/d.jpg.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Resimler\\d.jpg.webp"
+    },
+    {
+      "Identity": "C:\\Users\\303SAIT_AKSAM\\Desktop\\IstanbulEmlak\\RealEstate\\RealEstate\\wwwroot\\Resimler\\ilginc-ev.jpg",
+      "SourceId": "RealEstate",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\303SAIT_AKSAM\\Desktop\\IstanbulEmlak\\RealEstate\\RealEstate\\wwwroot\\",
+      "BasePath": "_content/RealEstate",
+      "RelativePath": "Resimler/ilginc-ev.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Resimler\\ilginc-ev.jpg"
     },
     {
       "Identity": "C:\\Users\\303SAIT_AKSAM\\Desktop\\IstanbulEmlak\\RealEstate\\RealEstate\\wwwroot\\Resimler\\tek.jpg",

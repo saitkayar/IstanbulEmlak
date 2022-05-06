@@ -70,11 +70,25 @@
   </nav>
 
   <main id="main">
-
+   
     <!-- ======= Works Section ======= -->
     <section class="section site-portfolio">
       <div class="container">
-         @RenderBody();
+             <div class="row mb-5 align-items-center">
+          <div class="col-md-12 col-lg-6 mb-4 mb-lg-0" data-aos="fade-up">
+            <h2>İstanbul Emlak</h2>
+            <p class="mb-0">En iyi,En Güzel,En Ucuz Evler Burada</p>
+          </div>
+          <div class="col-md-12 col-lg-6 text-start text-lg-end" >
+            <div  >
+              <a href="/Home/Index" >Tüm Evler</a>
+              <a href="/Home/ForRenting" >Kiralık Evler</a>
+              <a asp-controller="Home" asp-action="ForSelling" >Satılık </a>
+          
+            </div>
+          </div>
+        </div>
+         @RenderBody()
       </div>
     </section><!-- End  Works Section -->
 
