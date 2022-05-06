@@ -1,5 +1,5 @@
 ﻿@{
-    ViewData["Title"] = "Admin Home Page";
+    ViewData["Title"] = "Admin Renting Page";
     Layout = "_Layout";
 }
 
@@ -9,14 +9,13 @@
         <tr>
 
             <th scope="col">#</th>
-            <th scope="col"></th>
             <th scope="col">Title</th>
             <th scope="col">Alan</th>
             <th scope="col">Oda Sayısı</th>
             <th scope="col">Fiyat</th>
             <th scope="col">Konum</th>
             <th scope="col">Durum</th>
-            <th scope="col">Ek eylemler</th>
+            
 
         </tr>
     </thead>
@@ -26,20 +25,16 @@
             <tr>
 
                 <th scope="row">@item.Id</th>
-                <th scope="row"><img src="/Resimler/@item.Image" style="max-width:50px"></th>
                 <td>@item.Title</td>
                 <td>@item.Square</td>
                 <td>@item.RoomNumber</td>
                 <td>@item.Price</td>
                 <td>@item.LocationName</td>
                 <td>@item.Statu</td>
-                <td><a class="btn btn-link btn-info" href="/Admin/Update/@item.Id">Edit</a>
-                        <a class="btn btn-link btn-danger" href="/Admin/Delete/@item.Id">Delete</a>
-                        </td>
+               
                
 
             </tr>
         }
     </tbody>
 </table>
-<a class="btn btn-success" asp-controller="Admin" asp-action="Add">Yeni Ev Ekle</a>

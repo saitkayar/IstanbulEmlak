@@ -17,5 +17,6 @@ namespace RealEstate.ViewModel
         public string LocationName { get; set; }
         [Required(ErrorMessage = "{0} boş geçilemez!"), Display(Name = "Durum")]
         public string Statu { get; set; }
+        public string Image { get; set; }
     }
 }

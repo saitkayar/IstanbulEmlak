@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace RealEstate.Models
 {
@@ -17,6 +18,9 @@ namespace RealEstate.Models
         public int LocationId { get; set; }
         [Required(ErrorMessage = "{0} boş geçilemez!"), Display(Name = "Durum")]
         public int StatusId { get; set; }
+        [NotMapped]
+        public IFormFile File { get; set; }
+        public string Image { get; set; }
 
         public District District { get; set; }
         public Status Status { get; set; }

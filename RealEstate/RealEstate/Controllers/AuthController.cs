@@ -78,7 +78,7 @@ namespace RealEstate.Controllers
                     }
                     else if (user.Rolee.RoleName == "Admin")
                     {
-                        return Redirect("~/Home/Index");
+                        return Redirect("~/Admın/Index");
                     }
 
                     else if (user.Rolee.RoleName == "AktifKullanıcı")

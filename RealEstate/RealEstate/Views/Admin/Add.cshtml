@@ -4,7 +4,7 @@
     ViewData["Title"] = "Admin Add Page";
     Layout = "_Layout";
 }
-<form post="method" asp-controller="Admin" asp-action="Add">
+<form post="method" asp-controller="Admin" asp-action="Add" enctype="multipart/form-data">
   <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label">Başlık</label>
     <input type="text" class="form-control"  name="Title">
@@ -46,6 +46,10 @@
               
             }
         </select>
+  </div>
+   <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Resim Yükle </label>
+    <input type="file" class="form-control-file" name="File" id="exampleInputPassword1">
   </div>
 
   <button type="submit" class="btn btn-primary">Ekle</button>
