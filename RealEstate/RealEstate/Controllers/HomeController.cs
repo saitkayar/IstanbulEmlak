@@ -37,7 +37,7 @@ namespace RealEstate.Controllers
                         };
 
             ViewBag.hw = house.ToList();
-
+            ViewBag.ds = _context.Districts.ToList();
             return View();
         }
         public IActionResult ForSelling()

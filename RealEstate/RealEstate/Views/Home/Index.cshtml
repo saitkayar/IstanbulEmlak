@@ -1,4 +1,5 @@
-﻿@{
+﻿
+@{
     ViewData["Title"] = "Home Page";
     Layout = "NewFolder/_Layoutt";
 }
@@ -31,7 +32,15 @@
     </tbody>
 </table>*@
 
-   
+    <div class="row mb-5 ">
+        <div class="col-3">
+            <ul class="list-group">
+                @foreach(District loc in @ViewBag.ds){  <li class="list-group-item">@loc.LocationName</li>}
+
+ 
+</ul>
+        </div>
+        <div class="col-9">
         <div id="portfolio-grid" class="row no-gutter" data-aos="fade-up" data-aos-delay="200">
             @foreach (HouseViewModel item in @ViewBag.hw)
             {
@@ -45,5 +54,7 @@
             </a>
           </div>
             }
+            </div>
         
+        </div>
         </div>
