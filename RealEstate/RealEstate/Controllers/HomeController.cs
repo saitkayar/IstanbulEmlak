@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using RealEstate.Data;
+using RealEstate.Models;
 using RealEstate.ViewModel;
 using System.Diagnostics;
 
@@ -80,6 +81,14 @@ namespace RealEstate.Controllers
 
             //ViewBag.ev = _context.Houses.Where(a=>a.StatusId==2).ToList();
             ViewBag.ev = house.Where(a => a.Statu == "Kiralık").ToList();
+
+            return View();
+        }
+        [Authorize(Roles = "AktifKullanıcı")]
+        public IActionResult Detail()
+        {
+         
+         
 
             return View();
         }

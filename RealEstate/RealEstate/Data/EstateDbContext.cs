@@ -74,7 +74,14 @@ namespace RealEstate.Data
             );
 
             modelBuilder.Entity<House>().HasData(new House { Id = 1, Title = "Güzel Ev", Square = 100, RoomNumber = 3, Price = 9000, LocationId = 1, StatusId = 1 },
-            new House { Id = 2, Title = "Ucuz Ev", Square = 120, RoomNumber = 5, Price = 1150000, LocationId = 2, StatusId = 2 }
+            new House { Id = 2, Title = "Ucuz Ev", Square = 120, RoomNumber = 5, Price = 1150000, LocationId = 2, StatusId = 2 },
+            new House { Id = 3, Title = "Ucuz Ev", Square = 120, RoomNumber = 5, Price = 1150000, LocationId = 3, StatusId = 1 },
+            new House { Id = 4, Title = "Ucuz Ev", Square = 120, RoomNumber = 5, Price = 1150000, LocationId = 4, StatusId = 1 },
+            new House { Id = 5, Title = "Ucuz Ev", Square = 120, RoomNumber = 5, Price = 1150000, LocationId = 5, StatusId = 2 },
+            new House { Id = 6, Title = "Ucuz Ev", Square = 120, RoomNumber = 5, Price = 1150000, LocationId = 6, StatusId = 1 },
+            new House { Id = 7, Title = "Ucuz Ev", Square = 120, RoomNumber = 5, Price = 1150000, LocationId = 7, StatusId = 1 },
+            new House { Id = 8, Title = "Ucuz Ev", Square = 120, RoomNumber = 5, Price = 1150000, LocationId = 8, StatusId = 2 },
+            new House { Id = 9, Title = "Ucuz Ev", Square = 120, RoomNumber = 5, Price = 1150000, LocationId = 9, StatusId = 2 }
         );
         }
     }

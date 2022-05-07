@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\303SAIT_AKSAM\\Desktop\\IstanbulEmlak\\RealEstate\\RealEstate\\RealEstate.csproj": {}
+    "C:\\Users\\LENOVO\\Desktop\\RealEstate\\RealEstate\\RealEstate\\RealEstate.csproj": {}
   },
   "projects": {
-    "C:\\Users\\303SAIT_AKSAM\\Desktop\\IstanbulEmlak\\RealEstate\\RealEstate\\RealEstate.csproj": {
+    "C:\\Users\\LENOVO\\Desktop\\RealEstate\\RealEstate\\RealEstate\\RealEstate.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\303SAIT_AKSAM\\Desktop\\IstanbulEmlak\\RealEstate\\RealEstate\\RealEstate.csproj",
+        "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\RealEstate\\RealEstate\\RealEstate\\RealEstate.csproj",
         "projectName": "RealEstate",
-        "projectPath": "C:\\Users\\303SAIT_AKSAM\\Desktop\\IstanbulEmlak\\RealEstate\\RealEstate\\RealEstate.csproj",
-        "packagesPath": "C:\\Users\\303SAIT_AKSAM\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\303SAIT_AKSAM\\Desktop\\IstanbulEmlak\\RealEstate\\RealEstate\\obj\\",
+        "projectPath": "C:\\Users\\LENOVO\\Desktop\\RealEstate\\RealEstate\\RealEstate\\RealEstate.csproj",
+        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\LENOVO\\Desktop\\RealEstate\\RealEstate\\RealEstate\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\303SAIT_AKSAM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -87,7 +87,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

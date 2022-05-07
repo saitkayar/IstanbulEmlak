@@ -8,117 +8,121 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = RealEstate
 build_property.RootNamespace = RealEstate
-build_property.ProjectDir = C:\Users\303SAIT_AKSAM\Desktop\IstanbulEmlak\RealEstate\RealEstate\
+build_property.ProjectDir = C:\Users\LENOVO\Desktop\RealEstate\RealEstate\RealEstate\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\303SAIT_AKSAM\Desktop\IstanbulEmlak\RealEstate\RealEstate
+build_property.MSBuildProjectDirectory = C:\Users\LENOVO\Desktop\RealEstate\RealEstate\RealEstate
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/303SAIT_AKSAM/Desktop/IstanbulEmlak/RealEstate/RealEstate/Views/Admin/Add.cshtml]
+[C:/Users/LENOVO/Desktop/RealEstate/RealEstate/RealEstate/Views/Admin/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/303SAIT_AKSAM/Desktop/IstanbulEmlak/RealEstate/RealEstate/Views/Admin/ForRenting.cshtml]
+[C:/Users/LENOVO/Desktop/RealEstate/RealEstate/RealEstate/Views/Admin/ForRenting.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRm9yUmVudGluZy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/303SAIT_AKSAM/Desktop/IstanbulEmlak/RealEstate/RealEstate/Views/Admin/ForSelling.cshtml]
+[C:/Users/LENOVO/Desktop/RealEstate/RealEstate/RealEstate/Views/Admin/ForSelling.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRm9yU2VsbGluZy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/303SAIT_AKSAM/Desktop/IstanbulEmlak/RealEstate/RealEstate/Views/Admin/Index.cshtml]
+[C:/Users/LENOVO/Desktop/RealEstate/RealEstate/RealEstate/Views/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/303SAIT_AKSAM/Desktop/IstanbulEmlak/RealEstate/RealEstate/Views/Admin/Update.cshtml]
+[C:/Users/LENOVO/Desktop/RealEstate/RealEstate/RealEstate/Views/Admin/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/303SAIT_AKSAM/Desktop/IstanbulEmlak/RealEstate/RealEstate/Views/Auth/Login.cshtml]
+[C:/Users/LENOVO/Desktop/RealEstate/RealEstate/RealEstate/Views/Auth/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/303SAIT_AKSAM/Desktop/IstanbulEmlak/RealEstate/RealEstate/Views/Auth/ReActivation.cshtml]
+[C:/Users/LENOVO/Desktop/RealEstate/RealEstate/RealEstate/Views/Auth/ReActivation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxSZUFjdGl2YXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/303SAIT_AKSAM/Desktop/IstanbulEmlak/RealEstate/RealEstate/Views/Auth/Register.cshtml]
+[C:/Users/LENOVO/Desktop/RealEstate/RealEstate/RealEstate/Views/Auth/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/303SAIT_AKSAM/Desktop/IstanbulEmlak/RealEstate/RealEstate/Views/Auth/RegisterAply.cshtml]
+[C:/Users/LENOVO/Desktop/RealEstate/RealEstate/RealEstate/Views/Auth/RegisterAply.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxSZWdpc3RlckFwbHkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/303SAIT_AKSAM/Desktop/IstanbulEmlak/RealEstate/RealEstate/Views/Auth/RegisterMessage.cshtml]
+[C:/Users/LENOVO/Desktop/RealEstate/RealEstate/RealEstate/Views/Auth/RegisterMessage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxSZWdpc3Rlck1lc3NhZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/303SAIT_AKSAM/Desktop/IstanbulEmlak/RealEstate/RealEstate/Views/Auth/RePassword.cshtml]
+[C:/Users/LENOVO/Desktop/RealEstate/RealEstate/RealEstate/Views/Auth/RePassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxSZVBhc3N3b3JkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/303SAIT_AKSAM/Desktop/IstanbulEmlak/RealEstate/RealEstate/Views/Auth/RePasswordApply.cshtml]
+[C:/Users/LENOVO/Desktop/RealEstate/RealEstate/RealEstate/Views/Auth/RePasswordApply.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxSZVBhc3N3b3JkQXBwbHkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/303SAIT_AKSAM/Desktop/IstanbulEmlak/RealEstate/RealEstate/Views/Districts/Index.cshtml]
+[C:/Users/LENOVO/Desktop/RealEstate/RealEstate/RealEstate/Views/Districts/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzdHJpY3RzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/303SAIT_AKSAM/Desktop/IstanbulEmlak/RealEstate/RealEstate/Views/Home/ForRenting.cshtml]
+[C:/Users/LENOVO/Desktop/RealEstate/RealEstate/RealEstate/Views/Home/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LENOVO/Desktop/RealEstate/RealEstate/RealEstate/Views/Home/ForRenting.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGb3JSZW50aW5nLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/303SAIT_AKSAM/Desktop/IstanbulEmlak/RealEstate/RealEstate/Views/Home/ForSelling.cshtml]
+[C:/Users/LENOVO/Desktop/RealEstate/RealEstate/RealEstate/Views/Home/ForSelling.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGb3JTZWxsaW5nLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/303SAIT_AKSAM/Desktop/IstanbulEmlak/RealEstate/RealEstate/Views/Home/Index.cshtml]
+[C:/Users/LENOVO/Desktop/RealEstate/RealEstate/RealEstate/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/303SAIT_AKSAM/Desktop/IstanbulEmlak/RealEstate/RealEstate/Views/Shared/Error.cshtml]
+[C:/Users/LENOVO/Desktop/RealEstate/RealEstate/RealEstate/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/303SAIT_AKSAM/Desktop/IstanbulEmlak/RealEstate/RealEstate/Views/Shared/NewFolder/_Layoutt.cshtml]
+[C:/Users/LENOVO/Desktop/RealEstate/RealEstate/RealEstate/Views/Shared/NewFolder/_Layoutt.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXE5ld0ZvbGRlclxfTGF5b3V0dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/303SAIT_AKSAM/Desktop/IstanbulEmlak/RealEstate/RealEstate/Views/Shared/_Footer.cshtml]
+[C:/Users/LENOVO/Desktop/RealEstate/RealEstate/RealEstate/Views/Shared/_Footer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Gb290ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/303SAIT_AKSAM/Desktop/IstanbulEmlak/RealEstate/RealEstate/Views/Shared/_Javascriptt.cshtml]
+[C:/Users/LENOVO/Desktop/RealEstate/RealEstate/RealEstate/Views/Shared/_Javascriptt.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9KYXZhc2NyaXB0dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/303SAIT_AKSAM/Desktop/IstanbulEmlak/RealEstate/RealEstate/Views/Shared/_SideMenu.cshtml]
+[C:/Users/LENOVO/Desktop/RealEstate/RealEstate/RealEstate/Views/Shared/_SideMenu.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TaWRlTWVudS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/303SAIT_AKSAM/Desktop/IstanbulEmlak/RealEstate/RealEstate/Views/Shared/_Style.cshtml]
+[C:/Users/LENOVO/Desktop/RealEstate/RealEstate/RealEstate/Views/Shared/_Style.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TdHlsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/303SAIT_AKSAM/Desktop/IstanbulEmlak/RealEstate/RealEstate/Views/Shared/_TopBar.cshtml]
+[C:/Users/LENOVO/Desktop/RealEstate/RealEstate/RealEstate/Views/Shared/_TopBar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ub3BCYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/303SAIT_AKSAM/Desktop/IstanbulEmlak/RealEstate/RealEstate/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/LENOVO/Desktop/RealEstate/RealEstate/RealEstate/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/303SAIT_AKSAM/Desktop/IstanbulEmlak/RealEstate/RealEstate/Views/_ViewImports.cshtml]
+[C:/Users/LENOVO/Desktop/RealEstate/RealEstate/RealEstate/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/303SAIT_AKSAM/Desktop/IstanbulEmlak/RealEstate/RealEstate/Views/_ViewStart.cshtml]
+[C:/Users/LENOVO/Desktop/RealEstate/RealEstate/RealEstate/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/303SAIT_AKSAM/Desktop/IstanbulEmlak/RealEstate/RealEstate/Views/Shared/_Layout.cshtml]
+[C:/Users/LENOVO/Desktop/RealEstate/RealEstate/RealEstate/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-38w4zr4b1g

@@ -4,7 +4,7 @@
 
 namespace RealEstate.Migrations
 {
-    public partial class first : Migration
+    public partial class _1 : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -80,6 +80,7 @@ namespace RealEstate.Migrations
                     Price = table.Column<int>(type: "int", nullable: false),
                     LocationId = table.Column<int>(type: "int", nullable: false),
                     StatusId = table.Column<int>(type: "int", nullable: false),
+                    Image = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     DistrictId = table.Column<int>(type: "int", nullable: true)
                 },
                 constraints: table =>
@@ -107,7 +108,41 @@ namespace RealEstate.Migrations
                     { 2, "Ümraniye" },
                     { 3, "Kadıköy" },
                     { 4, "Maltepe" },
-                    { 5, "Bağcılar" }
+                    { 5, "Bağcılar" },
+                    { 6, "Adalar" },
+                    { 7, "Arnavutköy" },
+                    { 8, "Ataşehir" },
+                    { 9, "Avcılar" },
+                    { 10, "Bahçelievler" },
+                    { 11, "Bakırköy" },
+                    { 12, "Başakşehir" },
+                    { 13, "Bayrampaşa" },
+                    { 14, "Beşiktaş" },
+                    { 15, "Beykoz" },
+                    { 16, "Beylikdüzü" },
+                    { 17, "Beyoğlu" },
+                    { 18, "Büyükçekmece" },
+                    { 19, "Çatalca" },
+                    { 20, "Çekmeköy" },
+                    { 21, "Esenler" },
+                    { 22, "Esenyurt" },
+                    { 23, "Eyüpsultan" },
+                    { 24, "Fatih" },
+                    { 25, "Gaziosmanpaşa" },
+                    { 26, "Güngören" },
+                    { 27, "Küçükçekmece" },
+                    { 28, "Kağıthane" },
+                    { 29, "Kartal" },
+                    { 30, "Pendik" },
+                    { 31, "Sancaktepe" },
+                    { 32, "Sarıyer" },
+                    { 33, "Silivri" },
+                    { 34, "Sultanbeyli" },
+                    { 35, "Sultangazi" },
+                    { 36, "Şile" },
+                    { 37, "Şişli" },
+                    { 38, "Tuzla" },
+                    { 39, "Zeytinburnu" }
                 });
 
             migrationBuilder.InsertData(
@@ -117,26 +152,31 @@ namespace RealEstate.Migrations
                 {
                     { 1, "PasifKullanıcı" },
                     { 2, "AktifKullanıcı" },
-                    { 3, "Admin" },
-                    { 4, "Supervisor" }
+                    { 3, "Admin" }
                 });
+
+            migrationBuilder.InsertData(
+                table: "Roles",
+                columns: new[] { "RoleID", "RoleName" },
+                values: new object[] { 4, "Supervisor" });
 
             migrationBuilder.InsertData(
                 table: "Statuses",
                 columns: new[] { "Id", "Statu" },
-                values: new object[,]
-                {
-                    { 1, "Kiralık" },
-                    { 2, "Satılık" }
-                });
+                values: new object[] { 1, "Kiralık" });
+
+            migrationBuilder.InsertData(
+                table: "Statuses",
+                columns: new[] { "Id", "Statu" },
+                values: new object[] { 2, "Satılık" });
 
             migrationBuilder.InsertData(
                 table: "Houses",
-                columns: new[] { "Id", "DistrictId", "LocationId", "Price", "RoomNumber", "Square", "StatusId", "Title" },
+                columns: new[] { "Id", "DistrictId", "Image", "LocationId", "Price", "RoomNumber", "Square", "StatusId", "Title" },
                 values: new object[,]
                 {
-                    { 1, null, 1, 9000, 3, 100, 1, "Güzel Ev" },
-                    { 2, null, 2, 1150000, 5, 120, 2, "Ucuz Ev" }
+                    { 1, null, null, 1, 9000, 3, 100, 1, "Güzel Ev" },
+                    { 2, null, null, 2, 1150000, 5, 120, 2, "Ucuz Ev" }
                 });
 
             migrationBuilder.InsertData(

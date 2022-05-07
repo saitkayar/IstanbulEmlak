@@ -298,6 +298,76 @@ namespace RealEstate.Migrations
                             Square = 120,
                             StatusId = 2,
                             Title = "Ucuz Ev"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            LocationId = 3,
+                            Price = 1150000,
+                            RoomNumber = 5,
+                            Square = 120,
+                            StatusId = 1,
+                            Title = "Ucuz Ev"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            LocationId = 4,
+                            Price = 1150000,
+                            RoomNumber = 5,
+                            Square = 120,
+                            StatusId = 1,
+                            Title = "Ucuz Ev"
+                        },
+                        new
+                        {
+                            Id = 5,
+                            LocationId = 5,
+                            Price = 1150000,
+                            RoomNumber = 5,
+                            Square = 120,
+                            StatusId = 2,
+                            Title = "Ucuz Ev"
+                        },
+                        new
+                        {
+                            Id = 6,
+                            LocationId = 6,
+                            Price = 1150000,
+                            RoomNumber = 5,
+                            Square = 120,
+                            StatusId = 1,
+                            Title = "Ucuz Ev"
+                        },
+                        new
+                        {
+                            Id = 7,
+                            LocationId = 7,
+                            Price = 1150000,
+                            RoomNumber = 5,
+                            Square = 120,
+                            StatusId = 1,
+                            Title = "Ucuz Ev"
+                        },
+                        new
+                        {
+                            Id = 8,
+                            LocationId = 8,
+                            Price = 1150000,
+                            RoomNumber = 5,
+                            Square = 120,
+                            StatusId = 2,
+                            Title = "Ucuz Ev"
+                        },
+                        new
+                        {
+                            Id = 9,
+                            LocationId = 9,
+                            Price = 1150000,
+                            RoomNumber = 5,
+                            Square = 120,
+                            StatusId = 2,
+                            Title = "Ucuz Ev"
                         });
                 });
 

@@ -21,7 +21,7 @@
   <link href="~/MyPortfolio/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="~/MyPortfolio/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="~/MyPortfolio/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!-- Template Main CSS File -->
   <link href="~/MyPortfolio/assets/css/style.css" rel="stylesheet">
 
@@ -81,13 +81,14 @@
           </div>
           <div class="col-md-12 col-lg-6 text-start text-lg-end" >
             <div  >
-              <a href="/Home/Index" >Tüm Evler</a>
-              <a href="/Home/ForRenting" >Kiralık Evler</a>
+              <a href="/Home/Index" style=" border-right:2px black solid;padding-right:2px;" >Tüm Evler</a>
+              <a href="/Home/ForRenting" style=" border-right:2px black solid;padding-right:2px;">Kiralık Evler</a>
               <a asp-controller="Home" asp-action="ForSelling" >Satılık </a>
           
             </div>
           </div>
         </div>
+
          @RenderBody()
       </div>
     </section><!-- End  Works Section -->
